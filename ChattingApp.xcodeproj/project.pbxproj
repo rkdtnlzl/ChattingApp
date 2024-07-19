@@ -14,6 +14,9 @@
 		01FF37B72C4959B1004F5F3A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 01FF37B62C4959B1004F5F3A /* Base */; };
 		01FF37BF2C4959FB004F5F3A /* ChattingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF37BE2C4959FB004F5F3A /* ChattingListViewController.swift */; };
 		01FF37C22C495A34004F5F3A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF37C12C495A34004F5F3A /* BaseViewController.swift */; };
+		01FF37C62C4A2BDA004F5F3A /* ChattingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF37C52C4A2BDA004F5F3A /* ChattingData.swift */; };
+		01FF37C92C4A2BFE004F5F3A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 01FF37C82C4A2BFE004F5F3A /* SnapKit */; };
+		01FF37CB2C4A3113004F5F3A /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF37CA2C4A3113004F5F3A /* Section.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,8 @@
 		01FF37B82C4959B1004F5F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01FF37BE2C4959FB004F5F3A /* ChattingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingListViewController.swift; sourceTree = "<group>"; };
 		01FF37C12C495A34004F5F3A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		01FF37C52C4A2BDA004F5F3A /* ChattingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingData.swift; sourceTree = "<group>"; };
+		01FF37CA2C4A3113004F5F3A /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01FF37C92C4A2BFE004F5F3A /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +67,8 @@
 				01FF37AA2C4959B0004F5F3A /* AppDelegate.swift */,
 				01FF37AC2C4959B0004F5F3A /* SceneDelegate.swift */,
 				01FF37BE2C4959FB004F5F3A /* ChattingListViewController.swift */,
+				01FF37C52C4A2BDA004F5F3A /* ChattingData.swift */,
+				01FF37CA2C4A3113004F5F3A /* Section.swift */,
 				01FF37C02C495A1F004F5F3A /* Base */,
 				01FF37B02C4959B0004F5F3A /* Main.storyboard */,
 				01FF37B32C4959B1004F5F3A /* Assets.xcassets */,
@@ -94,6 +102,9 @@
 			dependencies = (
 			);
 			name = ChattingApp;
+			packageProductDependencies = (
+				01FF37C82C4A2BFE004F5F3A /* SnapKit */,
+			);
 			productName = ChattingApp;
 			productReference = 01FF37A72C4959B0004F5F3A /* ChattingApp.app */;
 			productType = "com.apple.product-type.application";
@@ -122,6 +133,9 @@
 				Base,
 			);
 			mainGroup = 01FF379E2C4959B0004F5F3A;
+			packageReferences = (
+				01FF37C72C4A2BFE004F5F3A /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 01FF37A82C4959B0004F5F3A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -152,6 +166,8 @@
 				01FF37C22C495A34004F5F3A /* BaseViewController.swift in Sources */,
 				01FF37BF2C4959FB004F5F3A /* ChattingListViewController.swift in Sources */,
 				01FF37AB2C4959B0004F5F3A /* AppDelegate.swift in Sources */,
+				01FF37CB2C4A3113004F5F3A /* Section.swift in Sources */,
+				01FF37C62C4A2BDA004F5F3A /* ChattingData.swift in Sources */,
 				01FF37AD2C4959B0004F5F3A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,6 +397,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		01FF37C72C4A2BFE004F5F3A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		01FF37C82C4A2BFE004F5F3A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01FF37C72C4A2BFE004F5F3A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 01FF379F2C4959B0004F5F3A /* Project object */;
 }
