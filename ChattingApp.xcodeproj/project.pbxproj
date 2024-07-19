@@ -17,6 +17,9 @@
 		01FF37C62C4A2BDA004F5F3A /* ChattingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF37C52C4A2BDA004F5F3A /* ChattingData.swift */; };
 		01FF37C92C4A2BFE004F5F3A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 01FF37C82C4A2BFE004F5F3A /* SnapKit */; };
 		01FF37CB2C4A3113004F5F3A /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF37CA2C4A3113004F5F3A /* Section.swift */; };
+		01FF37CD2C4A936C004F5F3A /* UICollectionViewLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF37CC2C4A936C004F5F3A /* UICollectionViewLayoutManager.swift */; };
+		01FF37CF2C4A93CA004F5F3A /* CollectionViewDataSourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF37CE2C4A93CA004F5F3A /* CollectionViewDataSourceManager.swift */; };
+		01FF37D12C4A9A63004F5F3A /* DiffableDataSource+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF37D02C4A9A63004F5F3A /* DiffableDataSource+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		01FF37C12C495A34004F5F3A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		01FF37C52C4A2BDA004F5F3A /* ChattingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingData.swift; sourceTree = "<group>"; };
 		01FF37CA2C4A3113004F5F3A /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		01FF37CC2C4A936C004F5F3A /* UICollectionViewLayoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewLayoutManager.swift; sourceTree = "<group>"; };
+		01FF37CE2C4A93CA004F5F3A /* CollectionViewDataSourceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSourceManager.swift; sourceTree = "<group>"; };
+		01FF37D02C4A9A63004F5F3A /* DiffableDataSource+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DiffableDataSource+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,9 @@
 				01FF37BE2C4959FB004F5F3A /* ChattingListViewController.swift */,
 				01FF37C52C4A2BDA004F5F3A /* ChattingData.swift */,
 				01FF37CA2C4A3113004F5F3A /* Section.swift */,
+				01FF37CC2C4A936C004F5F3A /* UICollectionViewLayoutManager.swift */,
+				01FF37CE2C4A93CA004F5F3A /* CollectionViewDataSourceManager.swift */,
+				01FF37D02C4A9A63004F5F3A /* DiffableDataSource+.swift */,
 				01FF37C02C495A1F004F5F3A /* Base */,
 				01FF37B02C4959B0004F5F3A /* Main.storyboard */,
 				01FF37B32C4959B1004F5F3A /* Assets.xcassets */,
@@ -165,8 +174,11 @@
 			files = (
 				01FF37C22C495A34004F5F3A /* BaseViewController.swift in Sources */,
 				01FF37BF2C4959FB004F5F3A /* ChattingListViewController.swift in Sources */,
+				01FF37CD2C4A936C004F5F3A /* UICollectionViewLayoutManager.swift in Sources */,
 				01FF37AB2C4959B0004F5F3A /* AppDelegate.swift in Sources */,
+				01FF37D12C4A9A63004F5F3A /* DiffableDataSource+.swift in Sources */,
 				01FF37CB2C4A3113004F5F3A /* Section.swift in Sources */,
+				01FF37CF2C4A93CA004F5F3A /* CollectionViewDataSourceManager.swift in Sources */,
 				01FF37C62C4A2BDA004F5F3A /* ChattingData.swift in Sources */,
 				01FF37AD2C4959B0004F5F3A /* SceneDelegate.swift in Sources */,
 			);
